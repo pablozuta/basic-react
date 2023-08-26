@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './Banner.jsx'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       </p>
       <p>The alarm still oscillated, louder here, the rear wall dulling the roar of the spherical chamber. Case felt the edge of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
       </p>
+      <Banner />
     </div>
   );
 }
