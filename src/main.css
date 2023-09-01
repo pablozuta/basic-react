@@ -28,6 +28,9 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
+}
+
+main {
   max-width: 1200px;
   margin-inline: auto;
 }
@@ -43,6 +46,3 @@ img {
   margin-inline: auto;
   margin-block: 2rem;
 }
-
-
-

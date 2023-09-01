@@ -1,15 +1,26 @@
 import React from 'react';
-import Banner from './Banner.jsx'
+import { Route, Routes } from "react-router-dom";
+import Banner from './Banner.jsx';
+import BarraNavegacion from './components/BarraNavegacion.jsx';
+import HomePage from './pages/HomePage.jsx';
+import BooksPage from './pages/BooksPage.jsx';
+
 
 function App() {
   return (
     <div>
-      <h1>HOME PAGE</h1>
-      <p>The knives seemed to have been sparsely decorated, years before, with a luminous digital display wired to a kind of central stage, a raised circle ringed with a ritual lack of urgency through the center of his closed left eyelid.
-      </p>
-      <p>The alarm still oscillated, louder here, the rear wall dulling the roar of the spherical chamber. Case felt the edge of the Villa bespeak a turning in, a denial of the bright void beyond the hull.
-      </p>
-      <Banner />
+      <BarraNavegacion />
+
+      <main>
+
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/books' element={<BooksPage />} />
+
+        </Routes>
+      </main>
+
+
     </div>
   );
 }
