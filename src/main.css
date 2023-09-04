@@ -14,17 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: rgb(208, 130, 102);
-  text-decoration: inherit;
-  border-bottom: 2px solid #555;
-}
-a:hover {
-  color: #555;
-}
-
 body {
   margin: 0;
   padding: 0;

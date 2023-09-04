@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='navbar'>
             <div >
                 <NavLink to="/" className="logo" >
-                    <span>VALIS</span>
+                    <span>Home</span>
                 </NavLink>
             </div>
             <a href="#" className="toggle-button" onClick={handleToggle}>
@@ -27,10 +27,10 @@ const Navbar = () => {
                         <NavLink to="books/">BOOKS</NavLink>
                     </li>
                     <li>
-                        <a href="cyberpunk.html">CYBERPUNK</a>
+                        <NavLink to="movies/">MOVIES</NavLink>
                     </li>
                     <li>
-                        <a href="tech.html">TECH</a>
+                        <NavLink to="tech/">TECH</NavLink>
                     </li>
                 </ul>
             </div>
